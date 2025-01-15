@@ -1,0 +1,58 @@
+img {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  align-items: center;
+}
+
+.logobox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 32px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.box .search {
+  position: absolute;
+  right: 110px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contents {
+  max-width: 1400px;
+  display: grid;
+  margin: 100px auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+}
+
+.size {
+  display: flex;
+  gap: 8px
+}
